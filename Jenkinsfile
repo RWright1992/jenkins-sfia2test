@@ -18,20 +18,20 @@ pipeline{
 	}
 	stage(Test){
 		steps{
-		sh 'cd SFIA-Project2/service1 && pip3 install -r requirements.txt'
-		sh 'cd SFIA-Project2/service1 && python3 -m pytest'
+		sh 'cd SFIA-Project-2/service1 && pip3 install -r requirements.txt'
+		sh 'cd SFIA-Project-2/service1 && python3 -m pytest'
 		sh 'cd ..'
-		sh 'cd SFIA-Project2/service2 && pip3 install -r requirements.txt'
-		sh 'cd SFIA-Project2/service2 && python3 -m pytest'
+		sh 'cd SFIA-Project-2/service2 && pip3 install -r requirements.txt'
+		sh 'cd SFIA-Project-2/service2 && python3 -m pytest'
 		sh 'cd ..'
-                sh 'cd SFIA-Project2/service3 && python3 -m pytest'
+                sh 'cd SFIA-Project-2/service3 && python3 -m pytest'
 		sh 'cd ..'
-                sh 'cd SFIA-Project2/service4 && python3 -m pytest'
+                sh 'cd SFIA-Project-2/service4 && python3 -m pytest'
 		}
 	}
         stage('Deploy'){
                 steps{
-                sh 'cd SFIA-Project2 && sudo docker-compose up -d'
+                sh 'cd SFIA-Project-2 && sudo docker-compose up -d'
                 }
 	}
 	}
