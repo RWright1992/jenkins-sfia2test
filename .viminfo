@@ -12,6 +12,7 @@
 
 # Command Line History (newest to oldest):
 :wq!
+:q!
 
 # Search String History (newest to oldest):
 ?/bin/bash
@@ -25,32 +26,145 @@
 # Registers:
 
 # File marks:
-'0  23  30  ~/Jenkinsfile
-'1  42  2  ~/jenkins.sh
+'0  9  64  ~/Jenkinsfile
+'1  1  0  ~/Jenkinsfile
+'2  10  0  ~/Jenkinsfile
+'3  38  35  ~/Jenkinsfile
+'4  14  63  ~/Jenkinsfile
+'5  11  45  ~/Jenkinsfile
+'6  6  69  ~/Jenkinsfile
+'7  5  50  ~/Jenkinsfile
+'8  28  30  ~/Jenkinsfile
+'9  42  2  ~/jenkins.sh
 
 # Jumplist (newest first):
--'  23  30  ~/Jenkinsfile
+-'  9  64  ~/Jenkinsfile
 -'  1  0  ~/Jenkinsfile
+-'  10  0  ~/Jenkinsfile
+-'  38  35  ~/Jenkinsfile
+-'  14  63  ~/Jenkinsfile
+-'  11  45  ~/Jenkinsfile
+-'  6  69  ~/Jenkinsfile
+-'  5  50  ~/Jenkinsfile
+-'  28  30  ~/Jenkinsfile
 -'  42  2  ~/jenkins.sh
 -'  1  0  ~/jenkins.sh
 -'  42  2  ~/jenkins.sh
 -'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  27  30  ~/Jenkinsfile
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  42  2  ~/jenkins.sh
+-'  1  0  ~/jenkins.sh
+-'  34  35  ~/Jenkinsfile
 
 # History of marks within files (newest to oldest):
 
 > ~/Jenkinsfile
-	"	23	30
-	^	23	31
-	.	23	30
-	+	37	0
-	+	6	37
-	+	20	21
-	+	21	21
-	+	24	21
+	"	9	64
+	^	9	65
+	.	9	64
+	+	42	0
+	+	5	59
+	+	25	21
+	+	26	21
+	+	29	21
+	+	38	35
+	+	31	67
+	+	33	44
+	+	28	30
+	+	5	22
+	+	6	68
+	+	15	1
+	+	14	6
+	+	25	21
+	+	26	21
+	+	28	21
+	+	29	21
+	+	31	35
 	+	33	35
-	+	26	67
-	+	28	44
-	+	23	30
+	+	38	35
+	+	17	28
+	+	18	50
+	+	19	23
+	+	20	9
+	+	9	64
 
 > ~/jenkins.sh
 	"	42	2
