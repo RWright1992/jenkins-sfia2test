@@ -14,10 +14,9 @@ pipeline{
 		sh 'sudo apt update && sudo apt install -y python3 python3-pip'
 		sh 'pip3 install pytest'
 		sh 'pip3 install Flask-Testing'
-		sh 'mkdir -p ~/.local/bin'
-		sh "echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc"
-		sh 'source ~/.bashrc'
-		sh 'pip3 install --user ansible'
+		sh 'sudo apt install software-properties-common'
+		sh 'sudo apt-add-repository --yes --update ppa:ansible/ansible'
+		sh 'sudo apt install ansible' 
                 }
 	}
 	stage(Test){
