@@ -25,40 +25,44 @@
 
 # Registers:
 ""1	LINE	0
-			sh 'pip3 install --user ansible'
+			sh 'sudo apt-add-repository --yes --update ppa:ansible/ansible'
 "2	LINE	0
-			sh 'source ~/.bashrc'
+			sh 'sudo apt install software-properties-common'
 "3	LINE	0
-			sh "echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc"
+			sh 'pip3 install --user ansible'
 "4	LINE	0
+			sh 'source ~/.bashrc'
+"5	LINE	0
+			sh "echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc"
+"6	LINE	0
 			sh 'mkdir -p ~/.local/bin'
 "-	CHAR	0
 			sh 'source ~/.bashrc'
 
 # File marks:
-'0  19  29  ~/Jenkinsfile
-'1  20  0  ~/Jenkinsfile
-'2  20  49  ~/Jenkinsfile
+'0  17  2  ~/Jenkinsfile
+'1  18  0  ~/Jenkinsfile
+'2  18  49  ~/Jenkinsfile
 '3  9  64  ~/Jenkinsfile
 '4  1  0  ~/Jenkinsfile
 '5  10  0  ~/Jenkinsfile
-'6  37  35  ~/Jenkinsfile
+'6  35  35  ~/Jenkinsfile
 '7  14  63  ~/Jenkinsfile
 '8  11  45  ~/Jenkinsfile
 '9  6  69  ~/Jenkinsfile
 
 # Jumplist (newest first):
--'  19  29  ~/Jenkinsfile
+-'  17  2  ~/Jenkinsfile
 -'  1  0  ~/Jenkinsfile
--'  20  0  ~/Jenkinsfile
+-'  18  0  ~/Jenkinsfile
 -'  9  64  ~/Jenkinsfile
 -'  10  0  ~/Jenkinsfile
--'  37  35  ~/Jenkinsfile
+-'  35  35  ~/Jenkinsfile
 -'  14  63  ~/Jenkinsfile
 -'  11  45  ~/Jenkinsfile
 -'  6  69  ~/Jenkinsfile
 -'  5  50  ~/Jenkinsfile
--'  27  30  ~/Jenkinsfile
+-'  25  30  ~/Jenkinsfile
 -'  42  2  ~/jenkins.sh
 -'  1  0  ~/jenkins.sh
 -'  42  2  ~/jenkins.sh
@@ -91,7 +95,7 @@
 -'  1  0  ~/jenkins.sh
 -'  42  2  ~/jenkins.sh
 -'  1  0  ~/jenkins.sh
--'  26  30  ~/Jenkinsfile
+-'  24  30  ~/Jenkinsfile
 -'  42  2  ~/jenkins.sh
 -'  1  0  ~/jenkins.sh
 -'  42  2  ~/jenkins.sh
@@ -144,47 +148,47 @@
 -'  1  0  ~/jenkins.sh
 -'  42  2  ~/jenkins.sh
 -'  1  0  ~/jenkins.sh
--'  33  35  ~/Jenkinsfile
+-'  31  35  ~/Jenkinsfile
 
 # History of marks within files (newest to oldest):
 
 > ~/Jenkinsfile
-	"	19	29
-	^	19	30
-	.	19	6
-	+	41	0
+	"	17	2
+	.	17	0
+	+	39	0
 	+	5	59
-	+	24	21
-	+	25	21
-	+	28	21
-	+	37	35
-	+	30	67
-	+	32	44
-	+	27	30
+	+	22	21
+	+	23	21
+	+	26	21
+	+	35	35
+	+	28	67
+	+	30	44
+	+	25	30
 	+	5	22
 	+	6	68
 	+	15	1
 	+	14	6
-	+	24	21
+	+	22	21
+	+	23	21
 	+	25	21
-	+	27	21
-	+	28	21
+	+	26	21
+	+	28	35
 	+	30	35
-	+	32	35
-	+	37	35
-	+	20	28
-	+	20	50
-	+	20	23
-	+	20	9
+	+	35	35
+	+	18	28
+	+	18	50
+	+	18	23
+	+	18	9
 	+	9	64
-	+	20	49
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
+	+	18	49
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
 	+	17	50
-	+	18	65
-	+	19	6
+	+	17	65
+	+	17	9
+	+	17	0
 
 > ~/jenkins.sh
 	"	42	2
