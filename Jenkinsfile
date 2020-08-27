@@ -15,7 +15,7 @@ pipeline{
 		sh 'pip3 install pytest'
 		sh 'pip3 install Flask-Testing'
 		sh 'mkdir -p ~/.local/bin'
-		sh 'echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc'
+		sh "echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc"
 		sh 'source ~/.bashrc'
 		sh 'pip3 install --user ansible'
                 }
